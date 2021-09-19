@@ -43,21 +43,21 @@ Perform t-tests to determine if all manufacturing lots and each lot individually
 Null hypothesis: All manufacturing lots and each lot individually are not statistically different from the population mean of 1,500 PSI.
 
 T-Test on all Manufacturing Lots:
-![image]()
+![image](https://github.com/corispade/MechaCar_Statistical_Analysis/blob/main/images/total_psi_vs_mean.png)
 
 Results: P-value of 0.06 is higher than 0.05. The mean for all manufacturing lots of 1498.78 is statistically similar to our population mean of 1500. We will accept our null hypothesis.
 
 T-Test on Manufacturing Lot 1:
-![image]()
+![image](https://github.com/corispade/MechaCar_Statistical_Analysis/blob/main/images/lot_1_vs_mean.png)
 
 Results: P-value of 0.1 is higher than 0.05. The mean for manufacturing Lot 1 of 1500 is the same as our population mean of 1500. We will accept our null hypothesis.
 
 T-Test on Manufacturing Lot 2:
-![image]()
+![image](https://github.com/corispade/MechaCar_Statistical_Analysis/blob/main/images/lot_2_vs_mean.png)
 
 Results: P-value of 0.61 is higher than 0.05. The mean for manufacturing Lot 2 of 1500.2 is statistically similar to our population mean of 1500. We will accept our null hypothesis.
 
 T-Test on Manufacturing Lot 3:
-![image]()
+![image](https://github.com/corispade/MechaCar_Statistical_Analysis/blob/main/images/lot_3_vs_mean.png)
 
 Results: P-value of 0.04 is lower than 0.05. The mean for manufacturing Lot 3 of 1496.14 is the not statistically similar to our population mean of 1500. We will reject our null hypothesis.
