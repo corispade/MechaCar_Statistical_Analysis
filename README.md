@@ -45,7 +45,7 @@ T-Test on all Manufacturing Lots:
 ![image](https://github.com/corispade/MechaCar_Statistical_Analysis/blob/main/images/total_psi_vs_mean.png)
 
 * Null hypothesis: The mean PSI of all manufacturing are not statistically different from the population mean of 1,500 PSI.
-* Results: P-value of 0.06 is higher than 0.05. The mean for all manufacturing lots of 1498.78 is statistically similar to our population mean of 1500. We will accept our null hypothesis.
+* Results: P-value of 0.06 is higher than 0.05. The mean for all manufacturing lots of 1498.78 is not statistically different from our population mean of 1500. We will accept our null hypothesis.
 
 T-Test on Manufacturing Lot 1:
 
@@ -59,23 +59,23 @@ T-Test on Manufacturing Lot 2:
 ![image](https://github.com/corispade/MechaCar_Statistical_Analysis/blob/main/images/lot_2_vs_mean.png)
 
 * Null hypothesis: The mean PSI of manufacturing Lot 2 is not statistically different from the population mean of 1,500 PSI.
-* Results: P-value of 0.61 is higher than 0.05. The mean for manufacturing Lot 2 of 1500.2 is statistically similar to our population mean of 1500. We will accept our null hypothesis.
+* Results: P-value of 0.61 is higher than 0.05. The mean for manufacturing Lot 2 of 1500.2 is not statistically different from our population mean of 1500. We will accept our null hypothesis.
 
 T-Test on Manufacturing Lot 3:
 
 ![image](https://github.com/corispade/MechaCar_Statistical_Analysis/blob/main/images/lot_3_vs_mean.png)
 
 * Null hypothesis: The mean PSI of manufacturing Lot 3 is not statistically different from the population mean of 1,500 PSI.
-* Results: P-value of 0.04 is lower than 0.05. The mean for manufacturing Lot 3 of 1496.14 is not statistically similar to our population mean of 1500. We will reject our null hypothesis.
+* Results: P-value of 0.04 is lower than 0.05. The mean for manufacturing Lot 3 of 1496.14 is statistically different from our population mean of 1500. We will reject our null hypothesis.
 
 
 ## Study Design: MechaCar vs Competition
 When customers are purchasing a car, they take 3 major factors into consideration: cost, city and highway fuel efficiency, and size. We are running a statistical analysis to determine if the cost of the vehicle is affected by city and highway fuel efficiency and size. Based on the analysis we can determine if our cars are priced appropriately for their valued features against our competitors. 
 
 #### Metrics to test: 
-Cost - measured in dollars
-City and highway fuel efficiency - measured in vehicle miles per gallon
-Size - measured in length, width, height and weight
+* Cost - measured in dollars
+* City and highway fuel efficiency - measured in vehicle miles per gallon
+* Size - measured in length, width, height and weight
 
 #### Null Hypothesis:
 The cost of the vehicle is not affected by city and highway fuel efficiency or size.
