@@ -1,7 +1,7 @@
 # MechaCar Statistical Analysis
 
 ## Linear Regression to Predict
-Our MechaCar_mpg dataset contains mpg test results for 50 prototype MechaCars. The chart contains multiple metrics to identify ideal vehicle performance. These metrics include vehicle length, vehicle weight, spoiler angle, ground clearance and AWD. We created a linear regression analysis to see how the mpg is affected by these metrics. 
+Our [MechaCar_mpg](https://github.com/corispade/MechaCar_Statistical_Analysis/blob/main/data/MechaCar_mpg.csv) dataset contains mpg test results for 50 prototype MechaCars. The chart contains multiple metrics to identify ideal vehicle performance. These metrics include vehicle length, vehicle weight, spoiler angle, ground clearance and AWD. We created a linear regression analysis to see how the mpg is affected by these metrics. 
 
 MPG statisical analysis results:
 
@@ -20,7 +20,7 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 
 ## Summary Statistics on Suspension Coils
-Our MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. The weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. We created summaries for the following: 
+Our MechaCar [Suspension_Coil.csv](https://github.com/corispade/MechaCar_Statistical_Analysis/blob/main/data/Suspension_Coil.csv) dataset contains the results from multiple production lots. The weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. We created summaries for the following: 
 
 Suspension coil's PSI continuous variable across all manufacturing lots:
 ![image](https://github.com/corispade/MechaCar_Statistical_Analysis/blob/main/images/PSI_total_summary.png)
@@ -78,13 +78,13 @@ When customers are purchasing a car, they take 3 major factors into consideratio
 * Size - measured in length, width, height and weight
 
 #### Null Hypothesis:
-The cost of the vehicle is not affected by city and highway fuel efficiency or size.
+The cost of the vehicle is not affected by city and highway fuel efficiency and size.
 
 #### Alternative Hypothesis:
 The cost of the vehicle is affected by city and highway fuel efficiency and size.
 
 #### Statistical test to test our hypothesis:
-We would use a multiple linear regression to test the correlation between cost and fuel efficiency and size. We can see which factors, if any, have the largest effect on the cost. If a large car has great city and highway fuel efficiency and size, is it priced appropriately with the competitiors. 
+We would use a multiple linear regression to test the correlation between cost and fuel efficiency and size. We can see which factors, if any, have the largest effect on the cost. We will compare the P-value against our significance level to ensure our results are statistically significant. Based on the r-squared results we can determine if we can use this data to accurately predict future cost based on our valued features. Based on our findings, we can run a similar test on our competitors and compare the results. 
 
 #### Data needed to run the statistical test:
-In order to properly run our test, we need data from our entire population of cars. It would also be helpful to receive or find data from our competitors to run an accurate competitive analysis. The data we are testing is the cost of the cars, the fuel efficiency for both city and highway for each car, as well as the car size in lenght, width, height and weight. 
+In order to properly run our test, we need data from our entire population of cars. It would also be helpful to receive or find data from our competitors to run an accurate competitive analysis. The data we are testing is the cost of the cars, the fuel efficiency for both city and highway for each car, as well as the car size in length, width, height and weight of each car. 
