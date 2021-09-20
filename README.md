@@ -66,4 +66,25 @@ T-Test on Manufacturing Lot 3:
 ![image](https://github.com/corispade/MechaCar_Statistical_Analysis/blob/main/images/lot_3_vs_mean.png)
 
 * Null hypothesis: The mean PSI of manufacturing Lot 3 is not statistically different from the population mean of 1,500 PSI.
-* Results: P-value of 0.04 is lower than 0.05. The mean for manufacturing Lot 3 of 1496.14 is the not statistically similar to our population mean of 1500. We will reject our null hypothesis.
+* Results: P-value of 0.04 is lower than 0.05. The mean for manufacturing Lot 3 of 1496.14 is not statistically similar to our population mean of 1500. We will reject our null hypothesis.
+
+
+## Study Design: MechaCar vs Competition
+When customers are purchasing a car, they take 3 major factors into consideration: cost, city and highway fuel efficiency, and size. We are running a statistical analysis to determine if the cost of the vehicle is affected by city and highway fuel efficiency and size. Based on the analysis we can determine if our cars are priced appropriately for their valued features against our competitors. 
+
+#### Metrics to test: 
+Cost - measured in dollars
+City and highway fuel efficiency - measured in vehicle miles per gallon
+Size - measured in length, width, height and weight
+
+#### Null Hypothesis:
+The cost of the vehicle is not affected by city and highway fuel efficiency or size.
+
+#### Alternative Hypothesis:
+The cost of the vehicle is affected by city and highway fuel efficiency and size.
+
+#### Statistical test to test our hypothesis:
+We would use a multiple linear regression to test the correlation between cost and fuel efficiency and size. We can see which factors, if any, have the largest effect on the cost. If a large car has great city and highway fuel efficiency and size, is it priced appropriately with the competitiors. 
+
+#### Data needed to run the statistical test:
+In order to properly run our test, we need data from our entire population of cars. It would also be helpful to receive or find data from our competitors to run an accurate competitive analysis. The data we are testing is the cost of the cars, the fuel efficiency for both city and highway for each car, as well as the car size in lenght, width, height and weight. 
